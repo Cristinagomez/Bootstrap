@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+	<title>Pon a prueba tus conocimientos</title>
+</head>
+<body>
+
+	<header class="container-fluid p-5 bg-success text-white text-center">
+    <h1>La Escuelita Cervecera</h1>
+    <p>¡Todo lo que necesitas saber para iniciarte en el mundo craft!</p> 
+  </header>
+
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+      <img src="../IMG/cerveza1.jpg" alt="Logo" style="width:40px;" class="rounded-pill">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+           <li class="nav-item">
+            <a class="nav-link" href="../index.html">Inicio</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="cursocompleto.html">Curso completo</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="test.html">Pon a prueba tus conocimientos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://cerveceros.org/" target="_blank">Cerveceras nacionales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.brewersassociation.org/" target="_blank">Cerveceras internacionales</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Buscar">
+          <a href="https://www.google.es/" class="btn btn-success" target="_blank">Buscar</a>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid pt-3 text-center text-success">
+    <h3>¡Pon aprueba lo aprendido!</h3>
+    <h4>Contesta las siguientes preguntas.</h4>
+  </div>
+  <div class="container pt-3 my-3">
+    <div class="row">
+      <div class="col-sm-7">
+        <form>
+          <h6>1. Los primeros restos de cerveza datan del año:</h6>
+          <input type="radio" class="form-check-input" id="2000" name="año" value="2000">
+          <label for="2000" class="form-check-label text-success">a) 2000 a.C.</label><br>
+          <input type="radio" class="form-check-input" id="2500" name="año" value="2500">
+          <label for="2500" class="form-check-label text-success">b) 2500 a.C.</label><br>
+          <input type="radio" class="form-check-input" id="3000" name="año" value="3000">
+          <label for="3000" class="form-check-label text-success">c) 3000 a.C.</label><br><br>
+          <h6>2. Inicialmente la cerveza la fabricaban:</h6>
+          <input type="radio" class="form-check-input" id="monjes" name="fabrica" value="monjes">
+          <label for="monjes" class="form-check-label text-success">a) Los monjes en la abadías.</label><br>
+          <input type="radio" class="form-check-input" id="artesanos" name="fabrica" value="artesanos">
+          <label for="artesanos" class="form-check-label text-success">b) Artesanos especializados.</label><br>
+          <input type="radio" class="form-check-input" id="mujeres" name="fabrica" value="mujeres">
+          <label for="mujeres" class="form-check-label text-success">c) Las mujeres en las casa.</label><br><br>
+          <h6>3. Elige la respuesta correcta sobre el lúpulo:</h6>
+          <input type="radio" class="form-check-input" id="aroma" name="lupulo" value="aroma">
+          <label for="aroma" class="form-check-label text-success">a) Aporta aroma y amargor.</label><br>
+          <input type="radio" class="form-check-input" id="no" name="lupulo" value="no">
+          <label for="no" class="form-check-label text-success">b) No es indispensable.</label><br>
+          <input type="radio" class="form-check-input" id="antiguo" name="lupulo" value="antiguo">
+          <label for="antiguo" class="form-check-label text-success">c) Es el ingrediente más antiguo</label><br><br>
+          <h6>4. ¿Cúal fue el principal decubrimiento de Pasteur?</h6>
+          <input type="radio" class="form-check-input" id="maquina" name="pasteur" value="maquina">
+          <label for="maquina" class="form-check-label text-success">a) La máquina frigorífica.</label><br>
+          <input type="radio" class="form-check-input" id="secreto" name="pasteur" value="secreto">
+          <label for="secreto" class="form-check-label text-success">b) El secreto de la fermentación.</label><br>
+          <input type="radio" class="form-check-input" id="vapor" name="pasteur" value="vapor">
+          <label for="vapor" class="form-check-label text-success">c) La máquina de vapor.</label><br><br>
+        </form>      
+      </div>
+
+      <div class="col-sm-5">
+        <form>
+          <h6>5. Los ingredientes necesarios para fabricar cerveza son:</h6>
+          <input type="radio" class="form-check-input" id="a" name="ingredientes" value="a">
+          <label for="a" class="form-check-label text-success">a) Agua, malta, lúpulo.</label><br>
+          <input type="radio" class="form-check-input" id="b" name="ingredientes" value="b">
+          <label for="b" class="form-check-label text-success">b) Agua, malta, lúpulo, levadura y otros. </label><br>
+          <input type="radio" class="form-check-input" id="c" name="ingredientes" value="c">
+          <label for="c" class="form-check-label text-success">c) Agua, malta, lúpulo y otros ingredientes.</label><br><br>
+          <h6>6. El ingrediente más importante es:</h6>
+          <input type="radio" class="form-check-input" id="levadura" name="ingrediente" value="levadura">
+          <label for="levadura" class="form-check-label text-success">a) Levadura.</label><br>
+          <input type="radio" class="form-check-input" id="malta" name="ingrediente" value="malta">
+          <label for="malta" class="form-check-label text-success">b) Malta.</label><br>
+          <input type="radio" class="form-check-input" id="cerales" name="ingrediente" value="cerales">
+          <label for="cerales" class="form-check-label text-success">c) Cereales.</label><br><br>
+          <h6>7. Las fases de la fabricación son:</h6>
+          <input type="radio" class="form-check-input" id="3" name="fases" value="3">
+          <label for="3" class="form-check-label text-success">a) Macerado, cocción, fermentación y envasado.</label><br>
+          <input type="radio" class="form-check-input" id="4" name="fases" value="4">
+          <label for="4" class="form-check-label text-success">b) Macerado, aspersión, enfriar y envasado.</label><br>
+          <input type="radio" class="form-check-input" id="5" name="fases" value="5">
+          <label for="5" class="form-check-label text-success">c) Macerado, cocción, enfriar, fermentación y envasado.</label><br><br>
+          <h6>8. La clasificación según el tipo de fermentación es:</h6>
+          <input type="radio" class="form-check-input" id="1" name="estilo" value="1">
+          <label for="1" class="form-check-label text-success">a) Lambic, Ale y Lager.</label><br>
+          <input type="radio" class="form-check-input" id="2" name="estilo" value="2">
+          <label for="2" class="form-check-label text-success">b) Lambic, Ale, Lager y otros.</label><br>
+          <input type="radio" class="form-check-input" id="3" name="estilo" value="3">
+          <label for="3" class="form-check-label text-success">c)  Lambic, Ale y Porter.</label><br><br>
+        </form>      
+      </div>
+    </div>
+    <div class="alert alert-success text-center">
+    <h3>Respuestas</h3>  
+      <div class="btn-group">
+        <div class="dropdown dropstart">
+          <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown">
+            1-4
+          </button>
+          <ul class="dropdown-menu">
+            <li><h5 class="dropdown-header text-success">Pregunta 1</h5></li>
+            <li class="dropdown-item text-center">Opción b</li>
+            <li><h5 class="dropdown-header text-success">Pregunta 2</h5></li>
+            <li class="dropdown-item text-center">Opción c</li>
+            <li><h5 class="dropdown-header text-success">Pregunta 3</h5></li>
+            <li class="dropdown-item text-center">Opción a</li>
+            <li><h5 class="dropdown-header text-success">Pregunta 4</h5></li>
+            <li class="dropdown-item text-center">Opción b</li>
+          </ul>
+        </div>
+        <div class="dropdown dropend">
+          <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown">
+            5-8
+          </button>
+          <ul class="dropdown-menu">
+            <li><h5 class="dropdown-header text-success">Pregunta 5</h5></li>
+            <li class="dropdown-item text-center">Opción b</li>
+            <li><h5 class="dropdown-header text-success">Pregunta 6</h5></li>
+            <li class="dropdown-item text-center">Opción a</li>
+            <li><h5 class="dropdown-header text-success">Pregunta 7</h5></li>
+            <li class="dropdown-item text-center">Opción c</li>
+            <li><h5 class="dropdown-header text-success">Pregunta 8</h5></li>
+            <li class="dropdown-item text-center">Opción a</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <footer class="container-fluid p-2 mt-4 bg-success text-white text-center">
+    <a href="avisolegal.html" class="text-light" target="_blank">Aviso legal</a>
+  </footer>
+  
+</body>
+</html>
+
